@@ -14,6 +14,7 @@ public class Main {
         vect.add(6, 22);
         vect.add(7, 251);
         vect.add(8, 53);
+        int u=0;
 
         Vector<Integer> vect2 = VectorHelper.Inverser(vect);
 

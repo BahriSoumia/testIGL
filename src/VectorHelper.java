@@ -3,7 +3,22 @@ import java.util.Vector;
 /**
  * Created by Soumia-PC on 14/10/2017.
  */
+
+/**
+ *Classe qui contient des fonctions pour la manipulation des vecteurs
+ * @author Soumia
+ * @version  1.0
+ *
+ */
 public class VectorHelper {
+
+    /**
+     * Inserser les elements d'un vecteur d'entiers
+     *
+     * @param vect
+     *              vecteur des entiers
+     * @return retourne un vecteur dant les elements sont inverses
+     */
 
     public static Vector<Integer> Inverser(Vector<Integer> vect){
         int i,j,x;
@@ -23,6 +38,12 @@ public class VectorHelper {
 
 
 /* par bull */
+
+    /**
+     * Trier les elements d'un vecteur par ordre croissant
+     *
+     * @param vect vecteur des entiers
+     */
 
     public static void triBulleCroissant(Vector<Integer> vect) {
         int longueur = vect.size();

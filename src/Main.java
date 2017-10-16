@@ -2,7 +2,7 @@ import java.util.Vector;
 
 public class Main {
 
-    public static void main(String[] args) {
+    private void static void main(String[] args) {
         // write your code here
         Vector<Integer> vect = new Vector<Integer>();
         vect.add(0, 1);

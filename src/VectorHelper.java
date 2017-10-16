@@ -7,7 +7,10 @@ import java.util.Vector;
 
 public class VectorHelper {
 
-    public int[] Inverser(Vector<Integer> vect , float c , int k , int m) {
+   
+{
+    public int[] Inverser(Vector<Integer> vect ) {
+
         int i, j, x;
         int n = vect.size();
         i = 0;
